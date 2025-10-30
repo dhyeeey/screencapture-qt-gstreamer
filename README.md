@@ -9,10 +9,7 @@
   <h2>Demo</h2>
   <div class="demo-section">
     <p>Watch the project in action:</p>
-    <video width="100%" controls>
-      <source src="https://private-user-images.githubusercontent.com/153446673/507794147-4db649bb-4702-45d7-acbf-966d6b01d73e.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE4NDY5OTIsIm5iZiI6MTc2MTg0NjY5MiwicGF0aCI6Ii8xNTM0NDQ2NjczLzUwNzc5NDE0Ny00ZGI2NDliYi00NzAyLTQ1ZDctYWNiZi05NjZkNmIwMWQ3M2UubXA0X1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTAzMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEwMzBUMTc1MTMyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjUwYjk3M2E1N2JhMmQ3NzBhNDkwMWVkODcxNTZmMzI0OTU0ZmMxMGJjMWFmODA4OTI2ZTQ1NjQyZjI3MDhjYyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3R9.BftRg5IQ259NM9fXoKhbqYly20aCmYoXIpqjizm-VQ8" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    https://github.com/user-attachments/assets/4db649bb-4702-45d7-acbf-966d6b01d73e
   </div>
 
   <h2>Features</h2>
