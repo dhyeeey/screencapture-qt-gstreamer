@@ -63,7 +63,7 @@
 
   <h2>Contributing</h2>
   <p>
-    Contributions are encouraged! Fork the repository, create feature branches, and submit pull requests for review. Contributions for Mac and Linux platforms would be highly appreciated as I currently own a Windows machine and don't have access to Mac and Linux.
+    Contributions are encouraged! Fork the repository, create feature branches, and submit pull requests for review. Contributions for Mac and Linux platforms would be highly appreciated as I currently own a Windows machine and I don't have access to Mac and Linux.
   </p>
 
   <h2>Acknowledgments</h2>
