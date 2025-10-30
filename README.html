@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f6f8fa;
+    }
+    h1 {
+      color: #0366d6;
+      border-bottom: 3px solid #0366d6;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #0366d6;
+      margin-top: 30px;
+    }
+    h3 {
+      color: #555;
+    }
+    code {
+      background-color: #f3f3f3;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+    pre {
+      background-color: #f3f3f3;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    ul, ol {
+      margin: 10px 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+    .demo-section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin: 20px 0;
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>ScreenCapture Qt GStreamer</h1>
+  <p>
+    <strong>ScreenCapture Qt GStreamer</strong> is a C++ project that enables high-performance screen capture in a simple window using the Qt framework and the GStreamer multimedia library. This project is suitable for developers interested in multimedia, real-time streaming, and desktop capture solutions leveraging open-source, cross-platform technologies.
+  </p>
+
+  <h2>Demo</h2>
+  <div class="demo-section">
+    <p>Watch the project in action:</p>
+    <video width="100%" controls>
+      <source src="https://private-user-images.githubusercontent.com/153446673/507794147-4db649bb-4702-45d7-acbf-966d6b01d73e.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE4NDY5OTIsIm5iZiI6MTc2MTg0NjY5MiwicGF0aCI6Ii8xNTM0NDQ2NjczLzUwNzc5NDE0Ny00ZGI2NDliYi00NzAyLTQ1ZDctYWNiZi05NjZkNmIwMWQ3M2UubXA0X1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTAzMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEwMzBUMTc1MTMyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjUwYjk3M2E1N2JhMmQ3NzBhNDkwMWVkODcxNTZmMzI0OTU0ZmMxMGJjMWFmODA4OTI2ZTQ1NjQyZjI3MDhjYyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3R9.BftRg5IQ259NM9fXoKhbqYly20aCmYoXIpqjizm-VQ8" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Real-time desktop or window screen capture</li>
+    <li>Qt-based graphical user interface (GUI) controls</li>
+    <li>Modular and extensible structure for additional platforms or streaming targets</li>
+  </ul>
+
+  <h2>Technologies Used</h2>
+  <ul>
+    <li><strong>C++</strong>: Core application logic</li>
+    <li><strong>Qt</strong>: User interface and event handling</li>
+    <li><strong>GStreamer</strong>: Multimedia processing and streaming</li>
+    <li><strong>CMake</strong>: Platform-independent build system</li>
+  </ul>
+
+  <h2>Getting Started</h2>
+  <h3>Prerequisites</h3>
+  <ul>
+    <li>Qt 6.2+ (recommended)</li>
+    <li>GStreamer 1.26.1 runtime and development libraries</li>
+    <li>CMake 3.16 or above</li>
+    <li>C++17-compatible compiler (MSVC preferred)</li>
+  </ul>
+
+  <h3>Build Instructions</h3>
+  <ol>
+    <li>Clone the repository:<br/>
+      <code>git clone https://github.com/dhyeeey/screencapture-qt-gstreamer.git</code>
+    </li>
+    <li>Navigate to project directory and open it using Qt Creator IDE</li>
+    <li>Run code using your choice of C++ compiler (MSVC preferred on Windows)</li>
+  </ol>
+
+  <h3>Configuration</h3>
+  <ul>
+    <li>Make sure <code>gst-launch-1.0</code> and plugins are in your PATH (Linux: install via package manager, Windows/macOS: install from GStreamer's official installers).</li>
+    <li>On first run, configure any access permissions for desktop capture.</li>
+  </ul>
+
+  <h2>Customization</h2>
+  <p>
+    You can extend this project by integrating new GStreamer plugins, new GStreamer pipelines, hardware encoders, or customizing the Qt GUI to support new features.
+  </p>
+
+  <h2>License</h2>
+  <p>
+    This project is open source and available under the MIT License.
+  </p>
+
+  <h2>Contributing</h2>
+  <p>
+    Contributions are encouraged! Fork the repository, create feature branches, and submit pull requests for review. Contributions for Mac and Linux platforms would be highly appreciated as I currently own a Windows machine and don't have access to Mac and Linux.
+  </p>
+
+  <h2>Acknowledgments</h2>
+  <ul>
+    <li><a href="https://www.gstreamer.net/">GStreamer project</a></li>
+    <li><a href="https://www.qt.io/">Qt project</a></li>
+  </ul>
+</body>
+</html>
